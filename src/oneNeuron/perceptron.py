@@ -35,6 +35,7 @@ class Perceptron:
       logging.info("#####"*10)
 
 
+
   def predict(self, X):
     X_with_bias = np.c_[X, -np.ones((len(X), 1))]
     return self.activationFunction(X_with_bias, self.weights)
