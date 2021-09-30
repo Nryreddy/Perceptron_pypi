@@ -3,19 +3,19 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PROJECT_NAME ="Perceptron_pypi"
-User_Name = "Nryreddy"
+PROJECT_NAME="Perceptron_pypi"
+USER_NAME="Nryreddy"
 
 setuptools.setup(
-    name=f"{PROJECT_NAME}-{User_Name}",
-    version="0.0.1",
+    name=f"{PROJECT_NAME}-{USER_NAME}",
+    version="0.0.2",
     author="NryReddy",
     description="An implementation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/{User_Name}/{PROJECT_NAME}",
+    url="https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
-        "Bug Tracker": "https://github.com/{User_Name}/{PROJECT_NAME}/issues",
+        "Bug Tracker": "https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
