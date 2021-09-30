@@ -9,7 +9,7 @@ USER_NAME="Nryreddy"
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.2",
-    author="NryReddy",
+    author={USER_NAME},
     description="An implementation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
